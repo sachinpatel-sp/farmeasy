@@ -82,7 +82,7 @@ const addProduct = (req, res) => {
   }
   var nameval = req.body.name;
   var priceval = req.body.price;
-  var buyerid = req.body.buyerfid;
+  var buyerid = req.body.buyerid;
 
   if (!nameval || !priceval || !buyerid) {
     res.status(400).send({
