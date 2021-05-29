@@ -1,7 +1,7 @@
 const db = require("../models");
 const buyers = db.apiends.buyers;
-const utils = require("../../utils/utilityFunctions");
-const { randomIdGenerator } = require("../../utils/utilityFunctions");
+const utils = require("../../utils/utilityfunction");
+const { randomIdGenerator } = require("../../utils/utilityfunction");
 const { response } = require("express");
 
 const register = (req, res) => {

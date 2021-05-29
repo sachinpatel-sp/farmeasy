@@ -1,4 +1,5 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 const app = express();
 
 // parse requests of content-type - application/json
@@ -27,4 +28,4 @@ app.listen(PORT, () => {
 
 app.use("/farmer", farmerRoute);
 app.use("/product", productRoute);
-app.use("/buyer", buyerRoute);  
+app.use("/buyer", buyerRoute);

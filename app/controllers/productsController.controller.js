@@ -2,7 +2,7 @@ const db = require("../models");
 const products = db.apiends.products;
 const buyers = db.apiends.buyers;
 const dbConfig = require("../config/db.config.env");
-const utils = require("../../utils/utilityFunctions");
+const utils = require("../../utils/utilityfunction");
 const Sequelize = require("sequelize");
 
 const showAll = (req, res) => {
