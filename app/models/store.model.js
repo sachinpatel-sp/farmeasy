@@ -19,6 +19,9 @@ module.exports = (sequelize, Sequelize) => {
     buyerImage: {
       type: Sequelize.STRING,
     },
+    email: {
+      type: Sequelize.STRING,
+    },
     phone: {
       type: Sequelize.INTEGER,
     },
