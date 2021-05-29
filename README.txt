@@ -106,15 +106,32 @@ Reponse
 https://farmeasy07.herokuapp.com/buyer/nearByBuyer
 Request-Post
 {
-    "latitude":26.9124,
-    "longitude":75.7873
+    "latitude": 26.6575,
+    "longitude": 96.65756
 }
 
 Response
 {
     "ans": [
         {
-            
+            "buyerid": "BU2021529144624155",
+            "buyername": "big farm",
+            "latitude": 26.6575,
+            "longitude": 96.65756,
+            "Address": "drgtfh,uii,uyiu",
+            "buyerImage": null,
+            "email": "bigfarm@gjhjk.com",
+            "phone": "9786544435"
+        },
+        {
+            "buyerid": "BU2021529145043452",
+            "buyername": "big farm2",
+            "latitude": 26.6575,
+            "longitude": 96.65756,
+            "Address": "drgtfh,uii,uyiu",
+            "buyerImage": null,
+            "email": "bigfarm@gjhjk.com",
+            "phone": "9786544435"
         }
     ]
 }
@@ -133,7 +150,7 @@ request- post
 
 Response
 {
-
+    "farmerId": "FR2021529151420787"
 }
 
 6) Login Farmer
