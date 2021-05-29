@@ -93,9 +93,9 @@ For farmer
 https://farmeasy07.herokuapp.com/farmer/register
 request- post
 {
-     "name": sgchgv
-     "phone": 9876554567
-     "email": "ghvvv@ghj.com"
+     "name": "sgchgv",
+     "phone": 9876554567,
+     "email": "ghvvv@ghj.com",
      "password": "dghhhhhvny6vv5yvhvhc"
 }
 

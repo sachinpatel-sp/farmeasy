@@ -16,11 +16,14 @@ module.exports = (sequelize, Sequelize) => {
     Address: {
       type: Sequelize.STRING,
     },
-    chefImage: {
+    buyerImage: {
       type: Sequelize.STRING,
     },
-    contact: {
+    phone: {
       type: Sequelize.INTEGER,
+    },
+    password: {
+      type: Sequelize.STRING,
     },
   });
 
@@ -35,7 +38,7 @@ module.exports = (sequelize, Sequelize) => {
     price: {
       type: Sequelize.INTEGER,
     },
-    chefid: {
+    buyerid: {
       type: Sequelize.STRING,
       references: {
         model: "buyers",

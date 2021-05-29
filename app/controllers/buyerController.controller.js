@@ -19,14 +19,14 @@ const register = (req, res) => {
   }
   var Id = utils.randomIdGenerator("BU");
   const buyer = {
-    buyerId: Id,
-    name: req.body.name,
+    buyerid: Id,
+    buyername: req.body.name,
     password: req.body.password,
     phone: req.body.phone,
     email: req.body.email,
     latitude: req.body.latitude,
     longitude: req.body.longitude,
-    address: req.body.address,
+    Address: req.body.address,
   };
   buyers
     .create(buyer)
