@@ -32,7 +32,7 @@ const register = (req, res) => {
     .create(buyer)
     .then((data) => {
       res.send({
-        status: true,
+        buyerId: Id
       });
     })
     .catch((err) => {

@@ -29,7 +29,7 @@ const register = (req, res) => {
     .create(farmer)
     .then((data) => {
       res.send({
-        status: true,
+        buyerId: Id,
       });
     })
     .catch((err) => {
