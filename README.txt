@@ -29,19 +29,19 @@ APIS
 https://farmeasy07.herokuapp.com/buyer/register
 Request-Post
 {
-    "name": "big farm"
-    "phone": 9786544435
-    "email": "bigfarm@gjhjk.com"
-    "password": ""gfdtr66557jgjh65yhvf"
-    "latitude": 26.6575
-    "longitude": 96.65756
-    "address": drgtfh,uii,uyiu
+    "name": "big farm2",
+    "phone": "9786544435",
+    "email": "bigfarm@gjhjk.com",
+    "password": ""gfdtr66557jgjh65yhvf",
+    "latitude": 26.6575,
+    "longitude": 96.65756,
+    "address": "drgtfh,uii,uyiu",
     "buyerImage": "http://ygyjjnhjb.com"
 
 }
 Response
 {
-
+    "buyerId": "BU2021529145043452"
 }
 
 2) add product
