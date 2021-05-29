@@ -84,7 +84,7 @@ const addProduct = (req, res) => {
   var priceval = req.body.price;
   var buyerid = req.body.buyerfid;
 
-  if (!nameval || !priceval || !chefid) {
+  if (!nameval || !priceval || !buyerid) {
     res.status(400).send({
       message: "Empty Details Of Products!",
     });
