@@ -89,7 +89,7 @@ const nearByBuyers = (req, res) => {
   coords1.push(lat);
 
   buyers
-    .findAll({})
+    .findAll({ attributes: ["buyerid", "buyername", "latitude" ,"longitude", "Address", "buyerImage", "email", "phone"] })
     .then((response) => {
       var ans = [];
       for (i = 0; i < response.length; i++) {

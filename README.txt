@@ -48,24 +48,56 @@ Response
 https://farmeasy07.herokuapp.com/product/addProduct
 Request-Post
 {
-    "buyerid":"BU20215316221223",
+    "name": "Sugarcane",
+    "buyerid": "BU2021529145043452",
+    "price": 250,
+    "adminPassword": "root"
 }
 Response
 {
-
+    "message": "Inserted Successfully To Products Table"
 }
 
 3) Products by buyerid
 https://farmeasy07.herokuapp.com/product/bybuyerid
 Request- Post
 {
-    "chefid": "CF20215316221223"
+    "buyerid": "BU2021529145043452"
 }
 Reponse
 {
     "response": [
         {
-            
+            "productId": "PD202152915427357",
+            "name": "Paddy",
+            "price": 250,
+            "buyerid": "BU2021529145043452",
+            "createdAt": "2021-05-29T15:04:27.359Z",
+            "updatedAt": "2021-05-29T15:04:27.359Z"
+        },
+        {
+            "productId": "PD202152915439177",
+            "name": "Wheat",
+            "price": 250,
+            "buyerid": "BU2021529145043452",
+            "createdAt": "2021-05-29T15:04:39.177Z",
+            "updatedAt": "2021-05-29T15:04:39.177Z"
+        },
+        {
+            "productId": "PD202152915446972",
+            "name": "Maze",
+            "price": 250,
+            "buyerid": "BU2021529145043452",
+            "createdAt": "2021-05-29T15:04:46.972Z",
+            "updatedAt": "2021-05-29T15:04:46.972Z"
+        },
+        {
+            "productId": "PD20215291550809",
+            "name": "Sugarcane",
+            "price": 250,
+            "buyerid": "BU2021529145043452",
+            "createdAt": "2021-05-29T15:05:00.809Z",
+            "updatedAt": "2021-05-29T15:05:00.809Z"
         }
     ]
 }
